@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>edit-delete</icon>
+	<name>No Image Metadata</name>
+	<unique-id>1637199948021422-1</unique-id>
+	<command>exiv2 -kf delete %N</command>
+	<description>Strip all Metadata from Images</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<image-files/>
+</action>
+</actions>
