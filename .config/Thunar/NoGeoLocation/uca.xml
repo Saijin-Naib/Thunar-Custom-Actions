@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>org.gnome.Maps.Devel</icon>
+	<name>No GeoLocation</name>
+	<unique-id>1637209134056343-1</unique-id>
+	<command>exiv2 -M&quot;del Exif.Image.GPSTag&quot; -M&quot;del Exif.GPSInfo.GPSLatitude&quot; -M&quot;del Exif.GPSInfo.GPSAltitude&quot; -M&quot;del Exif.GPSInfo.GPSLatitudeRef&quot; -M&quot;del Exif.GPSInfo.GPSAltitudeRef&quot; -M&quot;del Exif.GPSInfo.GPSProcessingMethod&quot; -M&quot;del Exif.GPSInfo.GPSLongitudeRef&quot; -M&quot;del Exif.GPSInfo.GPSTimeStamp&quot; -M&quot;del Exif.GPSInfo.GPSDateStamp&quot; -M&quot;del Exif.GPSInfo.GPSLongitude&quot; -M&quot;del Exif.GPSInfo.GPSImgDirection&quot; -M&quot;del Exif.GPSInfo.GPSImgDirectionRef&quot; %N</command>
+	<description>Strip all GeoLocation EXIF from Images</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<image-files/>
+</action>
+</actions>
