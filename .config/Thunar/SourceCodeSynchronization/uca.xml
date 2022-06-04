@@ -1,0 +1,10 @@
+<action>
+	<icon>folder-git</icon>
+	<name>Source Code Synchronization</name>
+	<unique-id>1651761262925782-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator --hold --command=&quot;git merge upstream/master master&quot; --command=&quot;git fetch upstream&quot; </command>
+	<description>Synchronize a checked-out branch with upstream</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
