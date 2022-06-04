@@ -1,0 +1,10 @@
+<action>
+	<icon>tools-media-optical-burn-image</icon>
+	<name>Convert To ISO</name>
+	<unique-id>1653922316764320-1</unique-id>
+	<command>xorrisofs -J -l -r -z -v --hardlinks --acl --xattr-any -V %n -o %n.iso %f</command>
+	<description>Convert a Directory to an ISO</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
