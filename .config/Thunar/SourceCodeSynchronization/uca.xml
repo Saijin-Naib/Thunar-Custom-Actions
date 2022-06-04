@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
 <action>
 	<icon>folder-git</icon>
 	<name>Source Code Synchronization</name>
@@ -8,3 +10,4 @@
 	<startup-notify/>
 	<directories/>
 </action>
+</actions>
