@@ -1,0 +1,15 @@
+<action>
+	<icon>mail-folder-sent</icon>
+	<name>Copy As Path</name>
+	<unique-id>1651899263245560-2</unique-id>
+	<command>echo %f</command>
+	<description>Copy Item&apos;s Location As Path</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
