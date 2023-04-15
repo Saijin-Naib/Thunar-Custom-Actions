@@ -1,5 +1,3 @@
-# Thunar-Custom-Actions
-Collection of Thunar Custom Actions
 ## [ABUILD 🗃](https://github.com/Saijin-Naib/Thunar-Custom-Actions/blob/trunk/.config/Thunar/ABUILD/uca.xml)
 Checksum & Build a selected APKBUILD on Alpine Linux with apk-tools
 ## [ConvertToISO 🗃](https://github.com/Saijin-Naib/Thunar-Custom-Actions/blob/trunk/.config/Thunar/ConvertToISO/uca.xml)
