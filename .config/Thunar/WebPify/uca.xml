@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>gtk-convert</icon>
+	<name>WebPify</name>
+	<unique-id>1679806794382802-1</unique-id>
+	<command>cwebp -q 90 -m 6 -sharp_yuv -pass 10 -mt -alpha_filter best -hint photo -metadata all -af -pre 2 %N -o %N.webp</command>
+	<description>Convert Image to Lossy WebP</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<image-files/>
+</action>
+</actions>
