@@ -1,5 +1,5 @@
 ## [ABUILD 🗃](https://github.com/Saijin-Naib/Thunar-Custom-Actions/blob/trunk/.config/Thunar/ABUILD/uca.xml)
-Checksum & Build a selected APKBUILD on Alpine Linux with apk-tools
+Checksum & Build a selected APKBUILD on Alpine Linux using apk-tools
 ## [ConvertToISO 🗃](https://github.com/Saijin-Naib/Thunar-Custom-Actions/blob/trunk/.config/Thunar/ConvertToISO/uca.xml)
 Convert current directory to an ISO Image with Xorriso 
 ## [CopyAsPath 🗃](https://github.com/Saijin-Naib/Thunar-Custom-Actions/blob/trunk/.config/Thunar/CopyAsPath/uca.xml)
@@ -11,6 +11,6 @@ Strip all Metadata from images using exiv2
 ## [OpenTerminalHere 🗃](https://github.com/Saijin-Naib/Thunar-Custom-Actions/blob/trunk/.config/Thunar/OpenTerminalHere/uca.xml)
 Opens the System Terminal Emulator in the Current Working Directory
 ## [SourceCodeSynchronization 🗃](https://github.com/Saijin-Naib/Thunar-Custom-Actions/blob/trunk/.config/Thunar/SourceCodeSynchronization/uca.xml)
-Synchronize a checked-out branch with upstream
+Synchronize a checked-out branch with upstream using git
 ## [WebPify 🗃](https://github.com/Saijin-Naib/Thunar-Custom-Actions/blob/trunk/.config/Thunar/WebPify/uca.xml)
 Convert an image to lossy WebP using cwebp
